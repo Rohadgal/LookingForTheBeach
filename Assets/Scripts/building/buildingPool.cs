@@ -48,7 +48,7 @@ public class buildingPool : MonoBehaviour
             Vector3 worldPos = building.transform.position; 
             //Debug.Log("pos: " + worldPos);
             if (building.transform.position.z < disappearPos) {
-                Debug.Log("that");
+                //Debug.Log("that");
                 building.SetActive(false);
                 //buildingsPool.Dequeue();
                 //buildingsPool.Enqueue(building);
